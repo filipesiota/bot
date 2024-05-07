@@ -1,7 +1,7 @@
 {
-  "name": "bot",
+  "name": "to_salvo_bot",
   "version": "1.0.0",
-  "description": "A web bot to help me.",
+  "description": "Bot para inserir registros na plataforma Tô Salvo!",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/filipesiota/bot#readme",
   "dependencies": {
+    "autodetect-decoder-stream": "^2.0.2",
+    "csv-reader": "^1.0.12",
     "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
     "puppeteer": "^22.8.0"
   }
 }
